@@ -5,25 +5,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
     DXC,
     Hashtag,
     python,
@@ -160,28 +147,22 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make machine learning projects as well as Dhruv did.",
-      name: "Sara ",
+        "Dhruv has a great understanding of Machine Learning and it's business applications.",
+      name: "Silvi ",
       designation: "Software Engineer",
-      company: "XYZ Co",
+      company: "Samsung",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a Data Scientist who truly generates insights from data like Dhruv does.",
-      name: "Brown uncle",
-      designation: "Senior Data Scientist",
-      company: "XYZ Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "Dhruv is a valuable asset to the team and to the company and a very quick learner,",
-      name: "asian guy",
+        "Dhruv is a valuable asset to the team and to the compa,ny and a very quick learner",
+      name: "Jamal",
       designation: "Team Lead",
       company: "DXC Technology",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
+  
+ 
   ];
   
   const projects = [
@@ -211,16 +192,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Anamoly Detection in Cloud Servers ",
+      name: "Fake News Classifier",
       description:
-        "This project is centered around building an anomaly detection system for cloud servers and building a system that continously monitors and analyzes cloud behaviour to enreliability.",
+        "Developed a machine learning-based fake news classifier utilizing NLP techniques and ensemble models to identify and filter misinformation. Achieved high accuracy on test data by integrating text analysis and sentiment evaluation. Enhanced real-time news validation for improved content credibility.",
       tags: [
         {
-          name: "GCP",
+          name: "NLP",
           color: "blue-text-gradient",
         },
         {
-          name: "bigdata",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
