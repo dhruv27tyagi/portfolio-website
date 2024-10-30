@@ -27,9 +27,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -61,8 +59,19 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          {/* Download Resume button */}
+          <li>
+            <a
+              href="/Resume - Dhruv Tyagi.pdf" // Path to the resume in the public folder
+              download="Dhruv_Tyagi_Resume.pdf" // Custom download filename
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              Download Resume
+            </a>
+          </li>
         </ul>
 
+        {/* Mobile menu */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -91,6 +100,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              {/* Download Resume button for mobile menu */}
+              <li>
+                <a
+                  href="/resume.pdf"
+                  download="Dhruv_Tyagi_Resume.pdf"
+                  className="font-poppins font-medium cursor-pointer text-[16px] text-secondary hover:text-white"
+                >
+                  Download Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
