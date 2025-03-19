@@ -21,6 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I build Data Pipelines, ML apps <br className='sm:block hidden' />
             and gather insights from Data.
+            .
           </p>
         </div>
       </div>

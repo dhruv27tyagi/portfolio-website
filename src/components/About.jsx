@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an analytically minded data science enthusiast with a strong background in data manipulation and
-        reporting. Proficient in SQL, Python, and Machine Learning. I am Motivated to leverage data-driven insights to
+        An analytically minded data scientist with a strong background in data manipulation, machine learning and MLOps. 
+        Proficient in SQL, Python, Machine Learning and Deep Learning. I am motivated to leverage data-driven insights to
         optimize processes and enhance decision-making.
       </motion.p>
 

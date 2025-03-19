@@ -116,16 +116,16 @@ import {
   
   const experiences = [
     {
-      title: "Analyst II",
+      title: "Data Scientist | Analyst II",
       company_name: "DXC Technology",
       icon: DXC,
       iconBg: "#383E56",
       date: "June 2022 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Ensuring the continous availability and maintenance of client infrastructure.",
+        "Worked on Operations Optimization and Customer Experience Enhancement using Machine Learning",
+        "Developed predictive models, improving operation efficiency by 3.1 percent.",
         "Implementing new bots to automate and streamline redundant tasks.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked cross-functionally with data scientists and software engineers to streamline model deployment processes.",
       ],
     },
     {
@@ -135,9 +135,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2020 - May 2020",
       points: [
-        "Analyzing the market for business growth and expansion opportunities.",
-        "Performing pricing and revenue optimization and generating insights from data.",
-        "Collaborating with cross-functional teams including designers, product managers, and others to discuss business stratergies.",
+        "Conducted market analysis to support business growth strategies, leading to a 10 percent improvement in targeting expansion opportunities.",
+        " Optimized pricing and revenue models through statistical analysis, aiding in strategic decision-making.",
         "Participating in cross team meetings and providing constructive feedback to other teams.",
       ],
     },
@@ -155,7 +154,7 @@ import {
     },
     {
       testimonial:
-        "Dhruv is a valuable asset to the team and to the compa,ny and a very quick learner",
+        "Dhruv is a valuable asset to the team and to the company and a quick learner",
       name: "Jamal",
       designation: "Team Lead",
       company: "DXC Technology",
